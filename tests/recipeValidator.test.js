@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert";
-import { validateRecipe } from "../utils/recipeValidator.js";
+import { validateRecipe } from "../controllers/recipeControllers.js";
 
 function runValidator(body) {
   let statusCode;
